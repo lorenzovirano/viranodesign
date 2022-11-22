@@ -1,0 +1,42 @@
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: var(--color__primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.banner__title{
+    font-family: Thunder, sans-serif;
+    font-size: 15rem;
+    color: var(--color__text);
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 172px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.banner__title:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 150px;
+    right: 45px;
+    top: -190px;
+    background: var(--color__text);
+}
+.banner__title:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 150px;
+    right: 45px;
+    top: 345px;
+    background: var(--color__text);
+}

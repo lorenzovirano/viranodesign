@@ -5,6 +5,14 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: var(--color__secondary);
+}
 
 ul{
   list-style: none;
@@ -21,9 +29,33 @@ a {
   box-sizing: border-box;
 }
 
+
+/* Variables */
 :root{
   --color__primary: #153243;
   --color__secondary: #284B63;
   --color__tertiary: #B4B8AB;
   --color__text: #EEF0EB;
+}
+
+/* Import Font */
+@font-face {
+  font-family: Thunder, sans-serif;
+  src: url("../fonts/Thunder/Thunder-HC.ttf");
+}
+@font-face {
+  font-family: Thunder, sans-serif;
+  src: url("../fonts/Thunder/Thunder-LightHC.ttf");
+}
+@font-face {
+  font-family: Thunder, sans-serif;
+  src: url("../fonts/Thunder/Thunder-BoldHC.ttf");
+}
+@font-face {
+  font-family: Thunder, sans-serif;
+  src: url("../fonts/Thunder/Thunder-ThinHC.ttf");
+}
+@font-face {
+  font-family: Thunder, sans-serif;
+  src: url("../fonts/Thunder/Thunder-SemiBoldHC.ttf");
 }
