@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    height: 60px;
+    background: var(--color__tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__right{
+    height: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    gap: 25px;
+}
+
+.navbar__item a{
+    padding: 10px 15px;
+    color: var(--color__primary);
+}
+
+.navbar__item:hover a{
+    color: var(--color__secondary);
+}
+
+.navbar__item.current {
+    font-weight: bold;
+}
+
+.download__btn{
+    height: 100%;
+    background: var(--color__primary);
+    color: var(--color__text);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+}
+
+.download__btn:hover{
+    background: var(--color__text);
+    color: var(--color__primary);
+}
