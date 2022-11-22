@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    overflow: hidden;
 }
 
 .banner__title{
@@ -25,9 +26,9 @@
     display: block;
     position: absolute;
     width: 5px;
-    height: 150px;
+    height: 100px;
     right: 45px;
-    top: -190px;
+    top: -145px;
     background: var(--color__text);
 }
 .banner__title:after{
@@ -39,4 +40,23 @@
     right: 45px;
     top: 345px;
     background: var(--color__text);
+}
+
+.roles{
+    font-family: serif;
+    color: var(--color__text);
+    width: 100%;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 10px;
+    white-space: nowrap;
+}
+
+.roles:first-child{
+    top: -20px;
+    transform: rotate(180deg);
+}
+.roles:last-child{
+    bottom: -20px;
 }
