@@ -1,4 +1,4 @@
-.banner{
+.banner {
     height: 100vh;
     width: 100%;
     background: var(--color__primary);
@@ -9,8 +9,8 @@
     overflow: hidden;
 }
 
-.banner__title{
-    font-family: Thunder, sans-serif;
+.banner__title {
+    font-family: 'Thunder';
     font-size: 15rem;
     color: var(--color__text);
     text-align: right;
@@ -21,7 +21,8 @@
     transform: translateY(-50%);
     right: 0;
 }
-.banner__title:before{
+
+.banner__title:before {
     content: '';
     display: block;
     position: absolute;
@@ -31,7 +32,8 @@
     top: -145px;
     background: var(--color__text);
 }
-.banner__title:after{
+
+.banner__title:after {
     content: '';
     display: block;
     position: absolute;
@@ -42,7 +44,7 @@
     background: var(--color__text);
 }
 
-.roles{
+.roles {
     font-family: serif;
     color: var(--color__text);
     width: 100%;
@@ -53,10 +55,11 @@
     white-space: nowrap;
 }
 
-.roles:first-child{
+.roles:first-child {
     top: -20px;
     transform: rotate(180deg);
 }
-.roles:last-child{
+
+.roles:last-child {
     bottom: -20px;
 }
