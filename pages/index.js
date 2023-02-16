@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 import { Container } from "react-bootstrap";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <AboutMe />
         <Skills />
         <Projects />
+        <Contact />
       </Container>
     </Layout>
   )
