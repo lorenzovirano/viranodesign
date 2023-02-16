@@ -1,4 +1,3 @@
-import Header from "./Header";
 import Footer from "./Footer";
 import Head from "next/head";
 
@@ -12,7 +11,6 @@ const Layout = ({ children }) => {
                 <link rel="preload" href="/fonts/Thunder/Thunder-SemiBoldHC.ttf" as="font" crossorigin="anonymous" />
                 <link rel="preload" href="/fonts/Thunder/Thunder-ThinHC.ttf" as="font" crossorigin="anonymous" />
             </Head>
-            <Header />
             {children}
             <Footer />
         </>

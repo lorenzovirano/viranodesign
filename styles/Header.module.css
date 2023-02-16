@@ -20,10 +20,12 @@
 .navbar{
     display: flex;
     gap: 25px;
+    height: 100%;
+    align-items: center;
 }
 
 .navbar__item a{
-    padding: 10px 15px;
+    padding: 20px 15px;
     color: var(--color__primary);
 }
 
@@ -44,6 +46,7 @@
     align-items: center;
     justify-content: center;
     transition: .5s ease;
+    cursor: pointer;
 }
 
 .download__btn:hover{
@@ -51,7 +54,22 @@
     color: var(--color__primary);
 }
 
-.container--header{
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width: 768px) {
+    .container--header{
+        display: block;
+    }
+    .header{
+        height: fit-content;
+        padding: 15px 0;
+    }
+    .header__left{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        margin: 15px auto;
+    }
+    .download__btn{
+        height: 50px;
+    }
 }
