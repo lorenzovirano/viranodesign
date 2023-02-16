@@ -1,7 +1,7 @@
-import css from '../styles/AboutMe.module.css';
+import css from '../styles/Skills.module.css';
 import ProgressBar from './widget/ProgressBar';
 
-export default function AboutMe() {
+export default function Skills() {
     let sectionClasses = `section section__skills`
     return (
         <section className={sectionClasses}>
