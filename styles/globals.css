@@ -91,6 +91,12 @@ a {
   top: -30px;
 }
 
+.section__subtitle{
+  color: var(--color__text);
+  font-size: 35px;
+  margin: 25px auto;
+}
+
 .title--right{
   text-align: right;
 }
@@ -105,5 +111,8 @@ a {
 @media screen and (max-width: 768px) {
   .container--header{
       display: block;
+  }
+  .content{
+    padding: 35px;
   }
 }

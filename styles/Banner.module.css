@@ -63,3 +63,18 @@
 .roles:last-child {
     bottom: -20px;
 }
+
+@media screen and (max-width: 768px) {
+    .banner__title{
+        font-size: 9rem;
+        line-height: 103px;
+    }
+    .banner__title::before{
+        height: 245px;
+        top: -280px;
+    }
+    .banner__title::after{
+        height: 245px;
+        top: 215px;
+    }
+}

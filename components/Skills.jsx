@@ -8,7 +8,7 @@ export default function Skills() {
             <h1 className="section__title title--right">Skills</h1>
             <div className='content'>
                 <ProgressBar label="CSS" value={95} />
-                <ProgressBar label="JavaScript" value={90} />
+                <ProgressBar label="JS" value={90} />
                 <ProgressBar label="HTML" value={100} />
                 <ProgressBar label="PHP" value={75} />
                 <ProgressBar label="CSS" value={90} />
