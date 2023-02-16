@@ -3,7 +3,7 @@ import css from '../styles/AboutMe.module.css'
 export default function AboutMe() {
     let sectionClasses = `section section__about-me`
     return (
-        <section className={sectionClasses}>
+        <section className={sectionClasses} id="about-me">
             <h1 className="section__title">About Me</h1>
             <div className='content'>
                 <p>

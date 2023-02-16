@@ -4,7 +4,7 @@ import ProgressBar from './widget/ProgressBar';
 export default function Skills() {
     let sectionClasses = `section section__skills`
     return (
-        <section className={sectionClasses}>
+        <section className={sectionClasses} id="skills">
             <h1 className="section__title title--right">Skills</h1>
             <div className='content'>
                 <ProgressBar label="CSS" value={95} />
