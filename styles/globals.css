@@ -55,3 +55,35 @@ a {
   --color__tertiary: #B4B8AB;
   --color__text: #EEF0EB;
 }
+
+.container--header{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* Section */
+.section{
+  margin: 100px auto;
+  position: relative;
+}
+
+.text-container{
+  max-width: 80%;
+  background-color: var(--color__primary);
+  margin: auto;
+  padding: 70px;
+}
+
+.text-container p{
+  color: var(--color__text);
+}
+
+/* Typography */
+.section__title{
+  color: var(--color__text);
+  font-family: 'Thunder';
+  font-size: 5rem;
+  position: absolute;
+  top: -30px;
+}

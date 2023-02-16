@@ -9,6 +9,7 @@
 .header__left{
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .header__right{
@@ -48,4 +49,9 @@
 .download__btn:hover{
     background: var(--color__text);
     color: var(--color__primary);
+}
+
+.container--header{
+    display: flex;
+    justify-content: space-between;
 }
